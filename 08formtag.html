@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Paymant Form</title>
+</head>
+<body>
+    <form action="">
+        <h1><center>Payment Form</center></h1>
+        <h2>Contact Information</h2>
+        <p>User Name:*   <input type="user Name" required></p>
+        <p>Father Name:* <input type="Father Name" required></p>
+        <p>Mother Name:* <input type="Mother Name" required></p>
+    <fieldset>
+        <legend>Gender:*</legend required>
+        <p>Male: <input type="radio" name="Gander" id="Male">
+           Female: <input type="radio" name="Gander" id="Female">
+           Other: <input type="radio" name="Gander" id="Other">
+        </p>
+    </fieldset>
+        <p>Address: <textarea name="Address" id="Address" cols="50" rows="5"></textarea></p>
+        <p>Pincode: <input type="number" name="Pincode" id="Pincode"></p>
+        <p>Mobile No:* <input type="number" name="Mobile No" id="Mobile No" required></p>
+        <p>Email:* <input type="email" name="Email" id="Email"></p>
+        <h2>Payment Information</h2>
+          <p>Card Type:*
+            <select name="Card Type" id="Card Type" required>
+                <option value="">---Select a Card Type</option>
+                <option value="Vise">Vise</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Mastercard">Mastercard</option>
+            </select>
+          </p>
+          <p>
+            Card No:* <input type="number" name="Card no:" id="Card No:" required>
+          </p>
+          <p>
+            Expiration Date:* <input type="date" name="esp_date" id="exp date" required>
+          </p>
+          <p>CVV:* <input type="password" name="CVV" id="CVV" required></p>
+          <input type="submit" value="Pay Now">
+    </form>
+    
+</body>
+</html>
