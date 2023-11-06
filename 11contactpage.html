@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: aqua;
+            font-size: larger;
+            font-family: 'Kanit', sans-serif;
+        }
+        .container{
+            width: 80%;
+            margin: 50px auto;
+        }
+        .contact-box{
+            background-color:white ;
+            display: flex;
+        }
+        .contact-left{
+            flex-basis: 60%;
+            padding: 40px 60px;
+        }
+        .contact-right{
+            flex-basis: 40%;
+            padding: 40px;
+            background-color: #6495ed;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        .container p{
+            margin-bottom: 40px;
+        }
+        .input-row{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .input-row .input-group{
+            flex-basis: 45%;
+        }
+        input{
+            width: 100%;
+            border: none;
+            border-bottom:  1px solid;
+            outline:none;
+            padding-bottom: 5%;
+        }
+        textarea{
+            width: 100%;
+            border: 1px solid;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        label{
+            margin-bottom: 6px;
+            display: block;
+            
+        }
+        button{
+            width: 100px;
+            border: none;
+            outline: none;
+            height: 35;
+            border-radius: 30px;
+            margin-top: 20px;
+            font-size: larger;
+            background-color: yellow;
+        }
+        button:hover{
+            color:red;
+        }
+        .contact-left h3{
+            
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .contact-right h3{
+            
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        tr td{
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1><u>Contact Us</u></h1>
+        <p>We would love to respond to your queries and help you. <br>Feel free to get in touch with us.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+             <h3>Send your request</h3>
+             <form>
+                <div class="input-row">
+                    <div class="inptu-group">
+                        <label>Name</label>
+                        <input type="name" placeholder="your name">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="inptu-group">
+                        <label>Phone</label>
+                        <input type="phone" placeholder="your phone no">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="inptu-group">
+                        <label>Email-id</label>
+                        <input type="email" placeholder="your email id">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="inptu-group">
+                        <label>Subject</label>
+                        <input type="subject" placeholder="your subject">
+                    </div>
+                </div>
+                <label>Message</label>
+                <textarea rows="5" placeholder="your message"></textarea>
+                <button type="submit">Send</button>
+             </form>
+            </div>
+            <div class="contact-right">
+               <h3>Reach Us</h3>
+               <table>
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>contactus@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone No.</td>
+                    <td>+91,894  353 4575</td>
+                </tr>
+                <tr>
+                    <td>Address
+                    </td>
+                    <td>#321,groundfloor <br> some road,indore</td>
+                </tr>
+               </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
